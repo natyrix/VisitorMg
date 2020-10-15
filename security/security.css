@@ -1,0 +1,108 @@
+div{
+    width: 100%;
+    margin: auto;
+}
+img{
+    width: 100%;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: lightgray;
+    color: black;
+}
+#dispdate{
+    /*float: right;*/
+    /*clear: left;*/
+    text-align: justify;
+    font-weight: bold;
+    font-family: "Bell MT";
+}
+
+.card{
+    background-color: lightseagreen;
+    display: inline-block;
+    width: 400px;
+    height: 180px;
+    margin: 10px;
+}
+#content{
+    width: 80%;
+    margin: auto;
+}
+
+.title{
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-family: Consolas;
+}
+
+.req{
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-family: Consolas;
+}
+.approve{
+    background-color: #3e8e41;
+    width: 30%;
+    color: white;
+    padding: 14px 20px;
+    margin: 40px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    float: left;
+}
+#form{
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    /*padding: auto;*/
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

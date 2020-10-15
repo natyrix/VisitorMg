@@ -1,0 +1,130 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+label{
+    color: darkolivegreen;
+}
+legend{
+    font-weight: bold;
+    font-family: "Cooper Black";
+}
+#nav > a{
+    /*font-weight: bold;*/
+    font-family: "Cooper Black";
+    text-decoration: none;
+    font-size: 25px;
+}
+#nav > a:hover{
+    /*padding: 1em;*/
+    font-size: 35px;
+    background-color: lightcyan;
+}
+#nav a:active{
+    background-color: wheat;
+}
+#nav{
+    background-color: lightseagreen;
+    height: 50px;
+}
+#content{
+    margin: auto;
+    width: 80%;
+}
+#content p{
+    text-align: justify;
+    font-weight: bold;
+    font-size: 25px;
+}
+#form{
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    /*padding: auto;*/
+}
+.logout{
+    float: right;
+}
+#removeuser{
+    color: red;
+
+}
+#editform{
+    width: 40%;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.button{
+    /*background-color: lightgray;*/
+    /*width: 20px;*/
+
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.dropbtn {
+     background-color: lightseagreen;
+     color: white;
+     padding: 16px;
+     font-size: 15px;
+     border: none;
+     cursor: pointer;
+ }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a:hover {background-color: lightblue;}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
